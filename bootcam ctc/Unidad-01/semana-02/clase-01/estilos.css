@@ -1,0 +1,96 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} 
+p{
+  text-align: left;
+}
+h1{
+  text-align: center;
+}
+img {
+  width: 20%;
+  height: 10%;
+}
+
+.container {
+
+  /* background-color: red;
+  max-width: 1000px;
+  max-height: 400px;
+  /* width: 100%;
+     heigth: 100%;  */ 
+  /*max-width: 1000px; /*tamaño de la caja*/
+  
+  text-align: center; /*centro la imagen */
+  max-height: 500px;
+  background-color:rgb(119, 143, 203); 
+  border: 6px ridge rgb(22, 245, 216);
+  padding: 10px 20px 30px 20px; /* dentro de la caja   */
+  margin: 30px 10px 30px 10px;
+ 
+}
+
+
+
+.input {
+  display: block; /*abarca todo un bloque en linea, lo demas abajo como el boton*/
+/*display: inline;*/
+}
+.input:hover{
+    background-color: blueviolet;
+    border: 2px solid rosybrown;
+}
+input::placeholder{
+   color: pink; 
+}
+.input:active{
+  border: 5px solid yellowgreen;  
+}
+.input:focus{
+   border: 5px solid red;
+
+}
+
+
+button {
+  background-color: red;
+  border: none; /*borde color */
+  outline: none;
+  border-radius: 8px;
+}
+/*cuando pasas el mouse sobre le boton*/
+button:hover {
+  background-color: yellow;
+}
+/*cuando le das click al elemento*/
+button:active {
+  background-attachment: aqua;
+}
+/*cuando enfocas el elemento con un tab*/
+button:focus{
+   border: 16px solid green; 
+}
+
+/*
+focus
+active
+hover
+*/
+
+
+.contain {
+    background-color: #2d2d;
+    border: 5px solid red;
+    /*  
+    padding-left: 16px;
+    padding-top: 40px;
+    padding-right: 16px;
+    padding-bottom: 50px; 
+    margin-top: 100px;
+    margin-bottom: 50px; */
+    padding: 20px 10px 10px 200px;
+    margin: 10px 10px 10px 10px ;
+  }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="welcome">
+            <h1>Bienvenido a la Trivia</h1>
+            <label for="name">Ingresa tu nombre:</label>
+            <input type="text" id="name" placeholder="Tu nombre">
+            <button onclick="startGame()">Comenzar</button>
+        </div>
+        <div id="categories" style="display: none;">
+            <h2>Hola <span id="playerName"></span>, elige una categoría:</h2>
+            <button onclick="selectCategory('general')">Cultura General</button>
+            <button onclick="selectCategory('anime')">Anime</button>
+            <button onclick="selectCategory('food')">Comida</button>
+        </div>
+        <div id="game" style="display: none;">
+            <h2>Pregunta:</h2>
+            <p id="question"></p>
+            <div id="options"></div>
+            <p>Puntuación: <span id="score">0</span>/100</p>
+            <button onclick="nextQuestion()">Siguiente</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

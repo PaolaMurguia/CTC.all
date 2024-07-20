@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jaro:opsz@6..72&family=Jersey+10&family=Jersey+15&family=Protest+Guerrilla&family=Rammetto+One&family=Sedan+SC&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0,5s;
+}
+
+.header {
+  height: 10vh;
+  padding: 0px 20px 0px 20px;
+  /* background-color: rgba(103, 94, 169, 0.9); */
+  display: flex;
+  align-items: center;
+}
+.trivia {
+  padding: 8px;
+  padding-top: 30px;
+  font-family: monospace;
+  color: aliceblue;
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  background-color: rgba(5, 7, 12, 0.1);
+
+}
+
+.logos{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 45px;
+  height:40px ;
+}
+.titulo-Bienvenida {
+  color: aliceblue;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+  font-size: large;
+
+  
+}
+.body {
+  background-image: url("./../assets/imagen/trivia.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.main {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   /* border: 2px solid #d6e418;  */
+}
+.box {
+  width: 45%;
+  height: 65vh;
+  border: 4px solid #ca96b3;
+  background-color: rgba(5, 7, 12, 0.6);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  flex-direction: column;
+}
+.input-button{
+  display: flex;
+  flex-direction: row;
+  max-width: 400px;
+  width: 100%;
+  height: 40px;
+  max-height: 100%;
+  justify-content: space-evenly;
+}
+.input-nombre{
+max-width: 250px;
+width: 100%;
+max-height:60px;
+height: 100%;
+border:2px solid gray;
+border-radius: 10px;
+padding: 3px;
+}
+input:hover{
+  background-color: rgba(110, 219, 224, 0);
+  color: aliceblue;
+}
+input:focus{
+  border: none;
+  outline: none;
+}
+.button-continuar{
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  background-color: rgb(73, 215, 244);
+  color: black;
+font-weight: 700;
+}
+
+.link{
+    color: rgb(216, 219, 223);
+}
+
+.footer {
+  height: 10vh;
+}
+
+/* Estilos para la sección de categorías */
+.categorias {
+  display: flex; /* Muestra los elementos en línea */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  margin-top: 20px; /* Espacio superior */
+}
+
+.categorias a {
+  padding: 10px 20px; /* Espacio interior */
+  margin-right: 20px; /* Espacio entre los elementos */
+  background-color: #3366cc; /* Color de fondo */
+  color: #ffffff; /* Color del texto */
+  text-decoration: none; /* Quita el subrayado */
+  border-radius: 5px; /* Radio de borde */
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+.categorias a:hover {
+  background-color: #1e4ba2; /* Cambia el color de fondo al pasar el ratón */
+}
+/*estilos para los botones de preguntas*/
+.respuesta-button {
+  font-size: 20px;
+  padding: 10px 20px; /* Espacio interior */
+  margin: 20px;
+  margin-bottom: 30px;
+
+  background: linear-gradient(to right, #c707b7, #17e4a6); /* Color de fondo */
+  color: #ffffff; /* Color del texto */
+  border-radius: 5px; /* Radio de borde */
+  transition: background-color 0.3s; /* Transición suave */
+  border-style: none;
+  justify-content: center;
+  
+}
+
+.respuesta-button:hover {
+  background: linear-gradient(to right,   #9c0690, #1692b8); /* Color de fondo */
+   /* Cambia el color de fondo al pasar el ratón */
+   padding: 13px 23px; /* Ajusta el espaciado alrededor del texto */
+  transition:  0.3s; /* Agrega una transición suave para el efecto de zoom */
+  
+}
+
+h1{
+  color: white;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-size: 50px;
+  padding-bottom: 30px;
+  font-weight: 400;
+}
+.pregunta{
+  text-align:center;
+  color: white;
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+
+
+#siguientePregunta{
+  
+  padding: 10px 20px; /* Espacio interior */
+  text-decoration: none; /* Quita el subrayado */
+  border-radius: 5px; /* Radio de borde */
+  transition: background-color 0.3s; /* Transición suave */
+  border: none;
+
+
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  background-color: rgb(73, 215, 244);
+  color: black;
+font-weight: 700;
+}
+
+#siguientePregunta:hover{
+  background-color: rgb(21, 140, 163);
+}
+
+#preguntas button{
+
+   justify-content: space-around;
+}
+
+

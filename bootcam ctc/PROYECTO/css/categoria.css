@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jaro:opsz@6..72&family=Jersey+10&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jaro:opsz@6..72&family=Jersey+10&family=Jersey+15&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jaro:opsz@6..72&family=Jersey+10&family=Jersey+15&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jaro:opsz@6..72&family=Jersey+10&family=Jersey+15&family=Protest+Guerrilla&family=Rammetto+One&family=Rubik+Moonrocks&family=Sedan+SC&display=swap');
+
+
+/*acontinuación los estilos de categorias*/
+
+.divPrinci{
+    text-align: center;
+    color: white;
+    
+}
+.texto-degradado{
+        font-family: "Rubik Moonrocks", sans-serif;
+        font-size: 60px;
+        background: linear-gradient(to right, rgb(133, 2, 194), rgb(224, 105, 179),  rgb(31, 243, 126)); /* Definir el degradado */
+        -webkit-background-clip: text; /* Clip de fondo para WebKit (Safari, Chrome) */
+        background-clip: text; /* Clip de fondo */
+        color: transparent; /* Hacer el texto transparente */ 
+        padding-bottom: 50px;
+        font-weight: 400;
+        font-style: normal;
+
+}
+
+h3{
+    font-family: dancing script;
+    font-size: 25px;
+    padding-bottom: 10px;
+
+}
+p{
+    font-family: "Jersey 10", sans-serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    padding-bottom: 50px;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    background: linear-gradient(to right, #c707b7, #17e4a6); /* Cambia los colores según tus preferencias */
+    
+    color: rgb(20, 14, 14); /* Cambia el color del texto si es necesario */
+    padding: 5px 10px; /* Ajusta el espaciado alrededor del texto */
+    border-radius: 5px;
+    margin-right: 10px;
+  
+}
+a:hover{
+    background: linear-gradient(to right,   #9c0690, #1692b8); /* Color de fondo */
+   /* Cambia el color de fondo al pasar el ratón */
+    /*transform: scale(1.5); Ajusta el valor según el grado de zoom deseado */
+  padding: 10px 15px; /* Ajusta el espaciado alrededor del texto */
+  transition:  0.5s; /* Agrega una transición suave para el efecto de zoom */
+  
+}

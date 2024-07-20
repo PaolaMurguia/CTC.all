@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado de la Trivia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¡Resultado de la Trivia!</h1>
+        <h2>¡Vaya, <span id="playerName"></span>!</h2>
+        <p>Tu puntuación final es: <span id="finalScore"></span> </p>
+        <button onclick="restartGame()">Volver a Jugar</button>
+    </div>
+    
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const playerName = urlParams.get('name');
+        let finalScore = urlParams.get('score');
+
+        const playerNameDisplay = playerName || 'Jugador';
+
+        finalScore = finalScore ? `${finalScore}/100` : '0/100';
+
+        document.getElementById('playerName').textContent = playerNameDisplay;
+        document.getElementById('finalScore').textContent = finalScore;
+
+        function restartGame() {
+
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>

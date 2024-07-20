@@ -1,0 +1,50 @@
+/* Estilos para el contenedor de la presentación */
+ .presentacion {
+    width: 100hv; /* Ancho del 100% del contenedor padre */
+    height: 100%; /* Altura del 100% de la ventana del navegador */
+    display: flex; /* Establece el modelo de diseño flexible */
+    overflow-x: scroll; /* Habilita el desplazamiento horizontal */
+    scroll-snap-type: x mandatory; /* Activa el scroll-snap horizontalmente con alineación obligatoria */
+
+} 
+
+/* Estilos para las diapositivas individuales */
+.diapositiva {
+    max-width: 100%; /* Ancho mínimo del 100% del contenedor padre */
+    height: 100%; /* Altura del 100% de la ventana del navegador */
+    scroll-snap-align: start; /* Alinea el inicio de la diapositiva con el inicio del scroll-snap */
+    display: flex; /* Establece el modelo de diseño flexible */
+    flex-direction: column; /* Organiza los elementos de la diapositiva en una columna */
+    justify-content: right; /* Centra los elementos verticalmente en la diapositiva */
+    align-items: left; /* Centra los elementos horizontalmente en la diapositiva */
+    padding: 2rem; /* Agrega un espacio interior de 2rem alrededor de los elementos de la diapositiva */
+    /* Agrega un gradiente de fondo a las diapositivas */
+    /* background-image: linear-gradient(to bottom, #38fc8a, #fa056b); */
+    background-color: black ;
+}
+
+/* Estilos para los títulos de las diapositivas */
+ h1 {
+    color: #fc009b; /* Color blanco para los títulos */
+    font-size: 2.5rem; /* Tamaño de fuente de 2.5rem para los títulos */
+    margin-bottom: 1rem; /* Margen inferior de 1rem después de los títulos */
+    font-family: 'Times New Roman', Times, serif;
+}
+div.a{
+    width: 400px;
+    max-width: 100%;
+    display: flex;
+    gap: 16px;
+    
+}
+
+
+/* Estilos para los párrafos de las diapositivas */
+.diapositiva p {
+    color: #e0e0e0; /* Color gris claro para los párrafos */
+    font-size: 1.2rem; /* Tamaño de fuente de 1.2rem para los párrafos */
+    text-align: justify; /* Alineación justificada del texto en los párrafos */
+}
+/* cuadro:hover{
+    transform: scale(1.05);
+} */
